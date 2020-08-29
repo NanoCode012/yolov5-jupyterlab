@@ -1,6 +1,8 @@
 # Yolov5-Jupyterlab
 
-This branch contains a Dockerfile which pulls the image from the latest ultralytics/yolov5 and installs jupyterlab, jupyterlab_tensorboard, and their dependencies.
+<img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/nanobits/yolov5">
+
+This branch contains a Dockerfile which pulls the image from the latest ultralytics/yolov5, installs jupyterlab, jupyterlab_tensorboard, and their dependencies.
 
 # Usage
 
