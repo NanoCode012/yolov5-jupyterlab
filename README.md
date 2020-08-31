@@ -17,6 +17,11 @@ Depending on your docker version, run the below with the supplied parameters.
 nvidia-docker run --ipc=host -it --rm -p 10000:8888 nanobits/yolov5
 ```
 
+You can mount coco to docker by the following commands. This assumes that `coco` folder is within the current directory.
+```bash
+nvidia-docker run --ipc=host -it --rm -p 10000:8888 -v "$(pwd)"/coco:/usr/src/coco nanobits/yolov5
+```
+
 If you're on local machine, access `localhost:10000`  
 If you're on remote machine, access `hostname:10000`
 
