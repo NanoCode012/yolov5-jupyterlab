@@ -2,7 +2,11 @@
 
 <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/nanobits/yolov5">
 
-This branch contains a Dockerfile which pulls the image from the latest ultralytics/yolov5, installs jupyterlab, jupyterlab_tensorboard, and their dependencies.
+This branch contains a Dockerfile which pulls the image from the latest ultralytics/yolov5:evolve, installs jupyterlab, jupyterlab_tensorboard, and their dependencies.
+
+# GOAL 
+
+This branch is used to evolve hyperparameters. This is not for normal use!
 
 # Usage
 
