@@ -29,7 +29,7 @@ Feel free to change `10000` to any other open port.
 
 # Image 
 
-![image](https://user-images.githubusercontent.com/9899957/90976356-83ddd680-e566-11ea-8080-e92beb0edbc9.png)
+![image](https://user-images.githubusercontent.com/9899957/92307103-26ae4000-efbe-11ea-8ac0-6e55d3aabfbb.png)
 
 # Credits
 
