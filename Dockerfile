@@ -2,7 +2,7 @@ FROM ultralytics/yolov5:latest
 
 RUN conda install -yq nodejs
 
-RUN pip install -q tensorboard==2.2.2
+RUN pip install -q tensorboard==2.2.1
 RUN pip install -q jupyterlab jupyter_tensorboard ipywidgets
 
 RUN jupyter nbextension enable --py widgetsnbextension
