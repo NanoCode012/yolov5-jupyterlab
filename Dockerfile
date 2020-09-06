@@ -1,4 +1,4 @@
-FROM ultralytics/yolov5:evolve
+FROM ultralytics/yolov5:evolve_coco_fine10
 
 RUN conda install -yq nodejs
 
