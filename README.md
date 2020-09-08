@@ -6,14 +6,14 @@ This branch contains a Dockerfile which pulls the image from the latest **ultral
 
 # GOAL 
 
-This branch is used to evolve hyperparameters. This is not for normal use!
+This branch is used to evolve hyperparameters. This is not for normal use! See [master branch](https://github.com/NanoCode012/yolov5-jupyterlab/tree/master) for daily use!
 
 # Usage
 
 Run the below,
 
 ```bash
-docker pull nanobits/yolov5
+docker pull nanobits/yolov5:evolve
 ```
 
 Depending on your docker version, run the below with the supplied parameters.
