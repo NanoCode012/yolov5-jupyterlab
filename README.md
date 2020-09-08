@@ -2,7 +2,11 @@
 
 <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/nanobits/yolov5">
 
-This branch contains a Dockerfile which pulls the image from the latest ultralytics/yolov5, installs jupyterlab, jupyterlab_tensorboard, and their dependencies.
+This branch contains a Dockerfile which pulls the image from the latest **ultralytics/yolov5:latest**, installs jupyterlab, jupyterlab_tensorboard, and their dependencies.
+
+# Goal
+
+This branch is to allow users to easily view the latest YOLOV5 docker image via Jupyterlab and use Tensorboard all in one window. This should be the preferred method for daily use!
 
 # Usage
 
