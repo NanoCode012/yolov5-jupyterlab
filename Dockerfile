@@ -1,6 +1,6 @@
 FROM ultralytics/yolov5:latest
 
-RUN conda install -c conda-forge nodejs
+RUN conda install -c conda-forge/label/cf202003 nodejs
 
 RUN pip install -q tensorboard==2.2.1
 RUN pip install -q jupyterlab jupyter_tensorboard ipywidgets
